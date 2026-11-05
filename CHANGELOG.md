@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026.11.05b (beta)
+
+- fix: The parity help now says in every language that a paused check or rebuild does not count. (chodeus)
+
+## 2026.11.05a (beta)
+
+- fix: A paused parity check or rebuild no longer blocks scheduled and forced moves. (chodeus)
+- fix: The size left, speed and ETA now update every 5 seconds while a file moves, not only after each file. With the move tool they step every 2 GiB. (chodeus)
+
 ## 2026.10.30
 
 - fix: A blank Log parent folder no longer bloats the settings file and floods /var/log. (masterwishx)
